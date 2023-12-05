@@ -1,0 +1,79 @@
+header {
+  text-align: center;
+
+  padding: 30px;
+  background-image: url("https://littleraesbakery.com/wp-content/uploads/2020/03/shamrock-vs-clover-2-1080x675.jpg");
+}
+header h1 {
+  color: orange;
+  font: sans-serif large;
+}
+header,
+main,
+footer {
+  border: 1px solid;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block; /* Align the list horizontally */
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px; /* Adjust as needed for spacing between list items */
+}
+
+li a {
+  display: block;
+  color: lightcoral;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #b3a7a7;
+}
+
+.roulette_game img {
+  margin-left: 38%;
+  transition: transform 2s ease-out;
+  border-radius: 50%;
+  margin-bottom: 100px;
+}
+.roulette_game img:hover {
+  transform: rotateZ(1800deg);
+}
+.coin_game img {
+  width: 250px;
+  rotate: 90deg;
+  margin-left: 42%;
+  margin-bottom: 80px;
+  transition: transform 3s ease-out;
+}
+.coin_game img:hover {
+  transform: rotateY(1800deg) rotateZ(180deg);
+}
+.dice_game img {
+  width: 20%;
+  margin-left: 35%;
+  margin-bottom: 80px;
+  border-radius: 50%;
+}
+footer {
+  background-color: rgb(49, 165, 122);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
